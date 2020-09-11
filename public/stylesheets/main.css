@@ -1,3 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(../photos/background.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #464646;
+}
+
 .thumbnail img {
     width: 100%;
 }
