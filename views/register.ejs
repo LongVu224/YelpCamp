@@ -1,13 +1,15 @@
-<% include ./partials/signInheader %>
+<% include ./partials/signInHeader %>
 
 <div class="login-box">
     <h1>Sign Up!</h1>
 
     <form action="/register" method="POST">
         <div class="textbox">
+            <i class="fas fa-user"></i>
             <input type="text" name="username" placeholder="username">
         </div>
         <div class="textbox">
+            <i class="fas fa-lock"></i>
             <input type="password" name ="password" placeholder="password">
         </div>
         <button class="btn">Sign Up</button>
